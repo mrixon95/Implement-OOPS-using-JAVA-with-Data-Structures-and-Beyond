@@ -151,13 +151,13 @@ public class Main {
         for (String file : files) {
             if (file.equalsIgnoreCase(fileName)) {
                 notFound = false;
-                System.out.println(fileName + " is located in the current directory.");
+                System.out.println(fileName + " is located in the current directory.\n");
                 break;
             }
         }
 
         if (notFound) {
-            System.out.println("File not found. " + fileName + " is not located in the current directory.");
+            System.out.println("File not found. " + fileName + " is not located in the current directory.\n");
         }
 
     }
